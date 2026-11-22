@@ -1,0 +1,22 @@
+# 凭据与产物一律不入库
+*.key
+*.pem
+*.token
+secrets/
+.env
+.env.*
+relay.json
+cf_token.txt
+
+# 运行产物 / 缓存
+node_modules/
+*.log
+*.tmp
+__pycache__/
+.venv/
+dist/
+
+# 系统噪音
+Thumbs.db
+desktop.ini
+.DS_Store
